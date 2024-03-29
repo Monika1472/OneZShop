@@ -1,0 +1,304 @@
+.Feedback {
+  width: 100%;
+  height: 90vh; 
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Header-Container {
+  width: auto;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.Header-Container h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 60px;
+  font-weight: 50;
+  color: black;
+}
+
+.Header-Container p {
+  padding: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+
+.Header-Container button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Header-Container button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.form-class  {
+  background-color: rgb(200, 200, 255);
+  padding:0px 30px ;
+  padding-bottom:0px ;
+  margin:0px;
+  height:100px;
+  width:20%;
+  border-radius: 10px;
+  z-index: -1;
+  display: block;
+  margin-top: 0px; /* Adjust margin as needed */
+  background-size: cover; /* Add this line */
+}
+
+ .form-class label {
+  font-size: 20px;
+  color: black;
+  font-family: Sans-Serif;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-class span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+ .form-class h1 {
+  color: purple;
+  text-align: center;
+  font-family: "Sans-Serif";
+}
+
+ .form-class button {
+  width: 25%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.select {
+  width: 177px;
+}
+
+
+
+/* body{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .Header-Container {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .Header-Container h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+  
+  .Header-Container p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .Header-Container button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .Header-Container button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  /* .p{
+    text-align: center;
+    font-size:30px;
+    color:white;
+  } */
+  /* .Header-Container {
+    width: auto;
+    margin-left: 50px;
+    padding:0;
+  }
+
+  .Header-Container h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  } */
+
+  /* .Header-Container p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+  } */
+
+  /* .Header-Container button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .Header-Container button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  } */
+
+  /* .Header-Container form {
+    background-color: rgb(200, 200, 255);
+    padding: 0px 60px;
+    border-radius: 10px;
+    z-index: -1;
+    display: block;
+    margin-top: 30px; }/* Adjust margin as needed */
+  
+
+  /* .Header-Container label {
+    font-size: 12px;
+    color: purple;
+    font-family: Sans-Serif;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .Header-Container span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+  }
+
+  h1 {
+    color: purple;
+    text-align: center;
+    font-family: "Sans-Serif";
+  }
+
+  button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .select {
+    width: 177px;
+  }  */ 
+
+  /* form {
+    background-color: rgb(200, 200, 255); 
+    padding: 0px 60px;
+    border-radius: 10px;
+    z-index: -1;
+    display:block;
+  }
+  label{
+    font-size: 12px;
+    color: purple;
+    font-Family: Sans-Serif;
+    margin-bottom: 10px;
+    display:block;
+  }
+  
+  span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+  }
+  
+  h1 {
+    color: purple;
+    text-align: center;
+    font-Family: "Sans-Serif";
+  }
+  
+  button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .select{
+    width: 177px;
+  } */

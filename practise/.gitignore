@@ -1,0 +1,22 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore build output
+/build/
+/dist/
+*.log
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore Maven build output for Spring Boot
+/target/
+*.iml
+
+# Ignore any OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file (if used)
+.env
